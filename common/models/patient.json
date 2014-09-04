@@ -1,0 +1,26 @@
+{
+  "name": "Patient",
+  "base": "PersistedModel",
+  "properties": {
+    "identifier": {
+      "type": "string",
+      "id": true
+    },
+    "gender": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "date"
+    }
+  },
+  "validations": [],
+  "relations": {
+    "name": {
+      "type": "hasMany",
+      "model": "HumanName",
+      "foreignKey": "patient"
+    }
+  },
+  "acls": [],
+  "methods": []
+}

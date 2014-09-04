@@ -1,0 +1,21 @@
+{
+  "name": "HumanName",
+  "base": "PersistedModel",
+  "properties": {
+    "namedParty": "number",
+    "given": {
+      "type": [
+        "string"
+      ]
+    },
+    "family": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
